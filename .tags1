@@ -1,0 +1,204 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+html	D:\_github\TechnoMarket\index.html	/^<html lang="ru">$/;"	function	line:2
+head	D:\_github\TechnoMarket\index.html	/^<head>$/;"	function	line:4
+title	D:\_github\TechnoMarket\index.html	/^  <title>Техномарт<\/title>$/;"	function	line:5
+link	D:\_github\TechnoMarket\index.html	/^  <link href="https:\/\/fonts.googleapis.com\/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">$/;"	function	line:6
+link	D:\_github\TechnoMarket\index.html	/^  <link href="https:\/\/fonts.googleapis.com\/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">$/;"	function	line:7
+link	D:\_github\TechnoMarket\index.html	/^  <link rel="stylesheet" href="css\/normalize.css">$/;"	function	line:8
+link	D:\_github\TechnoMarket\index.html	/^  <link rel="stylesheet" href="css\/style.css">$/;"	function	line:9
+body	D:\_github\TechnoMarket\index.html	/^<body>$/;"	function	line:12
+header	D:\_github\TechnoMarket\index.html	/^  <header class="main-header">$/;"	function	line:14
+div	D:\_github\TechnoMarket\index.html	/^    <div class="container">$/;"	function	line:16
+div	D:\_github\TechnoMarket\index.html	/^      <div class="main-header-top">$/;"	function	line:17
+a	D:\_github\TechnoMarket\index.html	/^        <a href="#">$/;"	function	line:18
+img	D:\_github\TechnoMarket\index.html	/^          <img class="top-logo" src="img\/top-logo.png" alt="Техномарт">$/;"	function	line:19
+section	D:\_github\TechnoMarket\index.html	/^        <section class="shopping">$/;"	function	line:22
+h	D:\_github\TechnoMarket\index.html	/^          <h2 class="visually-hidden">Покупки<\/h2>$/;"	function	line:23
+form	D:\_github\TechnoMarket\index.html	/^          <form class="search-form" action="index.html" method="post">$/;"	function	line:24
+label	D:\_github\TechnoMarket\index.html	/^            <label>$/;"	function	line:25
+span	D:\_github\TechnoMarket\index.html	/^              <span class="visually-hidden">Найти<\/span>$/;"	function	line:26
+input	D:\_github\TechnoMarket\index.html	/^              <input type="submit" value="Search">$/;"	function	line:27
+label	D:\_github\TechnoMarket\index.html	/^            <label>$/;"	function	line:29
+span	D:\_github\TechnoMarket\index.html	/^              <span class="visually-hidden">Текст поиска<\/span>$/;"	function	line:30
+input	D:\_github\TechnoMarket\index.html	/^              <input type="text" name="query">$/;"	function	line:31
+ul	D:\_github\TechnoMarket\index.html	/^          <ul class="shopping-nav">$/;"	function	line:35
+li	D:\_github\TechnoMarket\index.html	/^            <li><a href="#" class="bookmarks">Закладки<\/a><\/li>$/;"	function	line:36
+li	D:\_github\TechnoMarket\index.html	/^            <li><a href="#" class="card">Корзина<\/a><\/li>$/;"	function	line:37
+li	D:\_github\TechnoMarket\index.html	/^            <li class="checkout"><a href="#">Оформить заказ<\/a><\/li>$/;"	function	line:38
+div	D:\_github\TechnoMarket\index.html	/^    <div class="container header-center">$/;"	function	line:45
+p	D:\_github\TechnoMarket\index.html	/^      <p class="main-header-description">Интернет-магазин<br>$/;"	function	line:46
+div	D:\_github\TechnoMarket\index.html	/^      <div class="vCard main-header-contacts">$/;"	function	line:50
+h	D:\_github\TechnoMarket\index.html	/^        <h2 class="visually-hidden">Контакты<\/h2>$/;"	function	line:51
+div	D:\_github\TechnoMarket\index.html	/^        <div class="tel">+7 (812) 555-05-55<\/div>$/;"	function	line:52
+div	D:\_github\TechnoMarket\index.html	/^        <div class="street-adress">$/;"	function	line:53
+ul	D:\_github\TechnoMarket\index.html	/^      <ul class="user-nav">$/;"	function	line:58
+li	D:\_github\TechnoMarket\index.html	/^        <li><a class="user-nav-login" href="#">Войти<\/a><\/li>$/;"	function	line:59
+li	D:\_github\TechnoMarket\index.html	/^        <li><a class="user-nav-signup" href="#">Регистрация<\/a><\/li>$/;"	function	line:60
+div	D:\_github\TechnoMarket\index.html	/^    <div class="container header-bottom">$/;"	function	line:64
+nav	D:\_github\TechnoMarket\index.html	/^      <nav class="main-header-nav">$/;"	function	line:65
+ul	D:\_github\TechnoMarket\index.html	/^        <ul>$/;"	function	line:66
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:67
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Главная<\/a>$/;"	function	line:68
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:70
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Компания<\/a>$/;"	function	line:71
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:73
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Каталог<\/a>$/;"	function	line:74
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:76
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Новости<\/a>$/;"	function	line:77
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:79
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Спецпредложения<\/a>$/;"	function	line:80
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:82
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Доставка<\/a>$/;"	function	line:83
+li	D:\_github\TechnoMarket\index.html	/^          <li>$/;"	function	line:85
+a	D:\_github\TechnoMarket\index.html	/^            <a href="#">Контакты<\/a>$/;"	function	line:86
+main	D:\_github\TechnoMarket\index.html	/^  <main>$/;"	function	line:93
+h	D:\_github\TechnoMarket\index.html	/^    <h1 class="visually-hidden">Магазин техники "Техномарт"<\/h1>$/;"	function	line:94
+section	D:\_github\TechnoMarket\index.html	/^    <section class="container">$/;"	function	line:95
+h	D:\_github\TechnoMarket\index.html	/^      <h2 class="visually-hidden">Преимущества<\/h2>$/;"	function	line:96
+ul	D:\_github\TechnoMarket\index.html	/^      <ul class="features-list">$/;"	function	line:97
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-item features-item-materials new">$/;"	function	line:98
+span	D:\_github\TechnoMarket\index.html	/^          <span class="features-item-header">Материалы<\/span>$/;"	function	line:99
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#"><span class="features-item-button">на любой вкус<\/span><\/a>$/;"	function	line:100
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-item features-item-tools">$/;"	function	line:102
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#"><span class="features-item-header">Инструмент<\/span>$/;"	function	line:103
+span	D:\_github\TechnoMarket\index.html	/^            <span class="features-item-button">на все случаи<\/span><\/a>$/;"	function	line:104
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-item features-item-equimpent">$/;"	function	line:106
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#"><span class="features-item-header">Техника<\/span>$/;"	function	line:107
+span	D:\_github\TechnoMarket\index.html	/^            <span class="features-item-button">для стройки<\/span><\/a>$/;"	function	line:108
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-item features-item-sale">$/;"	function	line:110
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#"><span class="features-item-header">Скидки 50%<\/span>$/;"	function	line:111
+span	D:\_github\TechnoMarket\index.html	/^            <span class="features-item-button">на 350 товаров<\/span><\/a>$/;"	function	line:112
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-item features-item-delivery">$/;"	function	line:114
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#"><span class="features-item-header">Доставка<\/span>$/;"	function	line:115
+span	D:\_github\TechnoMarket\index.html	/^            <span class="features-item-button">бесплатно<\/span><\/a>$/;"	function	line:116
+li	D:\_github\TechnoMarket\index.html	/^        <li class="features-promo-slider">$/;"	function	line:118
+ul	D:\_github\TechnoMarket\index.html	/^          <ul>$/;"	function	line:119
+li	D:\_github\TechnoMarket\index.html	/^            <li class="promo-slider-item">$/;"	function	line:120
+a	D:\_github\TechnoMarket\index.html	/^              <a href="#">$/;"	function	line:121
+img	D:\_github\TechnoMarket\index.html	/^                <img src="img\/slider-1.jpg" alt="Дрели">$/;"	function	line:122
+span	D:\_github\TechnoMarket\index.html	/^                <span class="promo-slider-item-header">Дрели<\/span>$/;"	function	line:123
+span	D:\_github\TechnoMarket\index.html	/^                <span class="promo-slider-item-text">Соседям на радость!<\/span>$/;"	function	line:124
+li	D:\_github\TechnoMarket\index.html	/^            <li class="visually-hidden -promo-slider-item">$/;"	function	line:127
+a	D:\_github\TechnoMarket\index.html	/^              <a href="#">$/;"	function	line:128
+img	D:\_github\TechnoMarket\index.html	/^                <img src="img\/slider-2.jpg" alt="Перфораторы">$/;"	function	line:129
+span	D:\_github\TechnoMarket\index.html	/^                <span class="promo-slider-item-header">Перфораторы<\/span>$/;"	function	line:130
+span	D:\_github\TechnoMarket\index.html	/^                <span class="promo-slider-item-text">Настоящие мужские игрушки!<\/span>$/;"	function	line:131
+a	D:\_github\TechnoMarket\index.html	/^          <a class="button promo-open-catalog" href="#">Открыть каталог<\/a>$/;"	function	line:135
+section	D:\_github\TechnoMarket\index.html	/^    <section class="container goods-popular">$/;"	function	line:142
+header	D:\_github\TechnoMarket\index.html	/^      <header>$/;"	function	line:143
+h	D:\_github\TechnoMarket\index.html	/^        <h2>Популярные товары:<\/h2>$/;"	function	line:144
+a	D:\_github\TechnoMarket\index.html	/^        <a class="button goods-popular-all" href="#">Все популярные товары<\/a>$/;"	function	line:145
+ul	D:\_github\TechnoMarket\index.html	/^      <ul class="goods-popular-items">$/;"	function	line:147
+li	D:\_github\TechnoMarket\index.html	/^        <li class="goods-popular-item">$/;"	function	line:148
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#">$/;"	function	line:149
+p	D:\_github\TechnoMarket\index.html	/^            <p><img src="img\/bfg-9000.jpg" alt="Перфоратор BOSCH BFG 9000">$/;"	function	line:150
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price-old">32500Р.<\/span>$/;"	function	line:154
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price">25500Р.<\/span>$/;"	function	line:155
+li	D:\_github\TechnoMarket\index.html	/^        <li class="goods-popular-item">$/;"	function	line:157
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#">$/;"	function	line:158
+p	D:\_github\TechnoMarket\index.html	/^            <p><img src="img\/bfg-3000.jpg" alt="Перфоратор BOSCH BFG 3000">$/;"	function	line:159
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price-old">22500Р.<\/span>$/;"	function	line:163
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price">15500Р.<\/span>$/;"	function	line:164
+li	D:\_github\TechnoMarket\index.html	/^        <li class="goods-popular-item">$/;"	function	line:166
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#">$/;"	function	line:167
+p	D:\_github\TechnoMarket\index.html	/^            <p><img src="img\/bfg-6000.jpg" alt="Перфоратор BOSCH BFG 6000">$/;"	function	line:168
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price-old">30500Р.<\/span>$/;"	function	line:172
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price">25500Р.<\/span>$/;"	function	line:173
+li	D:\_github\TechnoMarket\index.html	/^        <li class="goods-popular-item new">$/;"	function	line:175
+a	D:\_github\TechnoMarket\index.html	/^          <a href="#">$/;"	function	line:176
+p	D:\_github\TechnoMarket\index.html	/^            <p><img src="img\/bfg-2000.jpg" alt="Перфоратор BOSCH BFG 2000">$/;"	function	line:177
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price-old">&nbsp;<\/span>$/;"	function	line:181
+span	D:\_github\TechnoMarket\index.html	/^          <span class="price">12500Р.<\/span>$/;"	function	line:182
+section	D:\_github\TechnoMarket\index.html	/^    <section class="container manufacturers-popular">$/;"	function	line:187
+header	D:\_github\TechnoMarket\index.html	/^      <header>$/;"	function	line:189
+h	D:\_github\TechnoMarket\index.html	/^        <h2>Популярные производители:<\/h2>$/;"	function	line:190
+a	D:\_github\TechnoMarket\index.html	/^        <a class="button manufacturers-popular-all" href="#">Все производители<\/a>$/;"	function	line:191
+ul	D:\_github\TechnoMarket\index.html	/^      <ul class="manufacturers-popular-list">$/;"	function	line:194
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:195
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/bosch.png" alt="Bosch">$/;"	function	line:196
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:198
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/makita.png" alt="Makita">$/;"	function	line:199
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:201
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/dewalt.png" alt="DeWalt">$/;"	function	line:202
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:204
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/interskol.png" alt="Interskol">$/;"	function	line:205
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:207
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/hitachi.png" alt="">$/;"	function	line:208
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:210
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/lg.png" alt="">$/;"	function	line:211
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:213
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/aeg.png" alt="">$/;"	function	line:214
+li	D:\_github\TechnoMarket\index.html	/^        <li class="manufatcurers-popular-item">$/;"	function	line:216
+img	D:\_github\TechnoMarket\index.html	/^          <img src="img\/metabo.png" alt="">$/;"	function	line:217
+section	D:\_github\TechnoMarket\index.html	/^    <section class="services">$/;"	function	line:222
+div	D:\_github\TechnoMarket\index.html	/^      <div class="container services-container">$/;"	function	line:224
+h	D:\_github\TechnoMarket\index.html	/^        <h2>Сервисы<\/h2>$/;"	function	line:226
+p	D:\_github\TechnoMarket\index.html	/^        <p>Хороший интернет-магазин отличается от плохого не только ценами!<br>$/;"	function	line:227
+ul	D:\_github\TechnoMarket\index.html	/^        <ul>$/;"	function	line:229
+li	D:\_github\TechnoMarket\index.html	/^          <li><button type="button" name="services-button1">Доставка<\/button><\/li>$/;"	function	line:230
+li	D:\_github\TechnoMarket\index.html	/^          <li><button type="button" name="services-button2">Гарантия<\/button><\/li>$/;"	function	line:231
+li	D:\_github\TechnoMarket\index.html	/^          <li><button type="button" name="services-button3">Кредит<\/button><\/li>$/;"	function	line:232
+h	D:\_github\TechnoMarket\index.html	/^        <h3>Доставка<\/h3>$/;"	function	line:235
+p	D:\_github\TechnoMarket\index.html	/^        <p>Мы с удовольствием доставим ваш товар прямо<br>$/;"	function	line:236
+section	D:\_github\TechnoMarket\index.html	/^    <section class="container main-about-us">$/;"	function	line:242
+h	D:\_github\TechnoMarket\index.html	/^      <h2 class="visually-hidden">О компании<\/h2>$/;"	function	line:243
+div	D:\_github\TechnoMarket\index.html	/^      <div class="about-company">$/;"	function	line:244
+h	D:\_github\TechnoMarket\index.html	/^        <h3>Компания "Техномарт"<\/h3>$/;"	function	line:246
+p	D:\_github\TechnoMarket\index.html	/^        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>$/;"	function	line:248
+p	D:\_github\TechnoMarket\index.html	/^        <p>Мы можем доставить ваш товар в самые отдаленные точки России! <br>$/;"	function	line:251
+ul	D:\_github\TechnoMarket\index.html	/^        <ul>$/;"	function	line:254
+li	D:\_github\TechnoMarket\index.html	/^          <li>Деловые линии<\/li>$/;"	function	line:255
+li	D:\_github\TechnoMarket\index.html	/^          <li>Автотрейдинг<\/li>$/;"	function	line:256
+li	D:\_github\TechnoMarket\index.html	/^          <li>ЖелДорЭкспедиция<\/li>$/;"	function	line:257
+a	D:\_github\TechnoMarket\index.html	/^        <a class="button button-about-company" href="#">$/;"	function	line:260
+div	D:\_github\TechnoMarket\index.html	/^      <div class="about-contacts">$/;"	function	line:266
+h	D:\_github\TechnoMarket\index.html	/^        <h3>Контакты<\/h3>$/;"	function	line:269
+p	D:\_github\TechnoMarket\index.html	/^        <p>Вы можете забрать товар сами, заехав в наш офис<\/p>$/;"	function	line:270
+img	D:\_github\TechnoMarket\index.html	/^        <img src="img\/map-small.png" alt="Схема проезда">$/;"	function	line:272
+a	D:\_github\TechnoMarket\index.html	/^        <a class="button button-write-us" href="#">Заблудились? Напишите нам!<\/a>$/;"	function	line:274
+footer	D:\_github\TechnoMarket\index.html	/^  <footer class="main-footer">$/;"	function	line:279
+img	D:\_github\TechnoMarket\index.html	/^    <img src="main-footer-logo.jpg" alt="Техномарт">$/;"	function	line:280
+div	D:\_github\TechnoMarket\index.html	/^    <div class="vCard main-footer-contacts">$/;"	function	line:282
+h	D:\_github\TechnoMarket\index.html	/^      <h2 class="visually-hidden">Контакты<\/h2>$/;"	function	line:283
+div	D:\_github\TechnoMarket\index.html	/^      <div class="street-adress">$/;"	function	line:284
+div	D:\_github\TechnoMarket\index.html	/^      <div class="tel">+7 (812) 555-05-55<\/div>$/;"	function	line:287
+nav	D:\_github\TechnoMarket\index.html	/^    <nav class="main-footer-nav">$/;"	function	line:291
+ul	D:\_github\TechnoMarket\index.html	/^      <ul>$/;"	function	line:292
+li	D:\_github\TechnoMarket\index.html	/^        <li><a href="#">Компания<\/a><\/li>$/;"	function	line:293
+li	D:\_github\TechnoMarket\index.html	/^        <li><a href="#">Новости<\/a><\/li>$/;"	function	line:294
+li	D:\_github\TechnoMarket\index.html	/^        <li><a href="#">Каталог<\/a><\/li>$/;"	function	line:295
+li	D:\_github\TechnoMarket\index.html	/^        <li><a href="#">Доставка<\/a><\/li>$/;"	function	line:296
+li	D:\_github\TechnoMarket\index.html	/^        <li><a href="#">Контакты<\/a><\/li>$/;"	function	line:297
+nav	D:\_github\TechnoMarket\index.html	/^    <nav class="nav-product-groups">$/;"	function	line:301
+ul	D:\_github\TechnoMarket\index.html	/^      <ul>$/;"	function	line:302
+li	D:\_github\TechnoMarket\index.html	/^        <li>Материалы<\/li>$/;"	function	line:303
+li	D:\_github\TechnoMarket\index.html	/^        <li>Техника<\/li>$/;"	function	line:304
+li	D:\_github\TechnoMarket\index.html	/^        <li>Инструмент<\/li>$/;"	function	line:305
+li	D:\_github\TechnoMarket\index.html	/^        <li>Спецпредложения<\/li>$/;"	function	line:306
+p	D:\_github\TechnoMarket\index.html	/^    <p>© 2010–2017 Компания «Техномарт» <br>$/;"	function	line:310
+ul	D:\_github\TechnoMarket\index.html	/^    <ul class=footer-social>$/;"	function	line:313
+li	D:\_github\TechnoMarket\index.html	/^      <li>$/;"	function	line:314
+a	D:\_github\TechnoMarket\index.html	/^        <a class="social-button" href="#">Вконтакте<\/a>$/;"	function	line:315
+li	D:\_github\TechnoMarket\index.html	/^      <li>$/;"	function	line:317
+a	D:\_github\TechnoMarket\index.html	/^        <a class="social-button" href="#">Фейсбук<\/a>$/;"	function	line:318
+li	D:\_github\TechnoMarket\index.html	/^      <li>$/;"	function	line:320
+a	D:\_github\TechnoMarket\index.html	/^        <a class="social-button" href="#">Инстаграм<\/a>$/;"	function	line:321
+p	D:\_github\TechnoMarket\index.html	/^    <p>Обратная связь:<br>$/;"	function	line:325
+a	D:\_github\TechnoMarket\index.html	/^      <a href="#">mail@htmlacademy.ru<\/a><\/p>$/;"	function	line:326
+p	D:\_github\TechnoMarket\index.html	/^    <p>Разработано:<br>$/;"	function	line:328
+a	D:\_github\TechnoMarket\index.html	/^      <a href="#">htmlacademy.ru<\/a><\/p>$/;"	function	line:329
+section	D:\_github\TechnoMarket\index.html	/^  <section>$/;"	function	line:332
+h	D:\_github\TechnoMarket\index.html	/^    <h2 class="visually-hidden">Схема проезда<\/h2>$/;"	function	line:333
+img	D:\_github\TechnoMarket\index.html	/^    <img src="map_popup.jpg" alt="Схема проезда">$/;"	function	line:334
+section	D:\_github\TechnoMarket\index.html	/^  <section class="feedback-form">$/;"	function	line:338
+h	D:\_github\TechnoMarket\index.html	/^    <h2 class="visually-hidden">Обратная связь<\/h2>$/;"	function	line:339
+form	D:\_github\TechnoMarket\index.html	/^    <form class="" action="index.html" method="post">$/;"	function	line:340
+label	D:\_github\TechnoMarket\index.html	/^      <label for="name">Ваше имя:<\/label><br><input type="text" id="name" name="name" value=""><br>$/;"	function	line:341
+label	D:\_github\TechnoMarket\index.html	/^      <label for="e_mail">Ваш e-mail:<\/label><br><input type="text" id="e_mail" name="e_mail" value=""><br>$/;"	function	line:342
+label	D:\_github\TechnoMarket\index.html	/^      <label for="text">Текст письма:<\/label><br><input type="text" id="text" name="text" value=""><br>$/;"	function	line:343
+input	D:\_github\TechnoMarket\index.html	/^      <input type="submit" value="Отправить письмо">$/;"	function	line:344
