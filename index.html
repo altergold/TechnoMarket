@@ -112,21 +112,23 @@
           <a href="#"><span class="button features-item-button">бесплатно</span></a>
         </li>
         <li class="features-promo-slider">
-          <ul>
-            <li class="promo-slider-item">
-              <a href="#">
-                <img src="img/slider-1.jpg" alt="Дрели">
-                <span class="promo-slider-item-header">Дрели</span>
+          <ul class="promo-slider-items">
+            <li class="promo-slider-item" data-slidernumber="1">
+                <img src="img/slider-1.jpg" alt="Дрели"><br>
+                <span class="promo-slider-item-header">Дрели</span><br>
                 <span class="promo-slider-item-text">Соседям на радость!</span>
-              </a>
             </li>
-            <li class="visually-hidden -promo-slider-item">
-              <a href="#">
-                <img src="img/slider-2.jpg" alt="Перфораторы">
-                <span class="promo-slider-item-header">Перфораторы</span>
+            <li class="visually-hidden promo-slider-item" data-slidernumber="2">
+                <img src="img/slider-2.jpg" alt="Перфораторы"><br>
+                <span class="promo-slider-item-header">Перфораторы</span><br>
                 <span class="promo-slider-item-text">Настоящие мужские игрушки!</span>
-              </a>
             </li>
+          </ul>
+          <button class="slider-previous"><span class="visually-hidden">Предыдущий</span></button>
+          <button class="slider-next"><span class="visually-hidden">Следующий</span></button>
+          <ul class="dots-container">
+            <li><button class="dot dot-active"></button></li>
+            <li><button class="dot"></button></li>
           </ul>
           <a class="button promo-open-catalog" href="#">Открыть каталог</a>
         </li>
@@ -242,10 +244,25 @@
               <p>Мы с удовольствием доставим ваш товар прямо<br>
                 к вашему подъезду совершенно бесплатно!<br>
                 Ведь мы неплохо заработаем,<br>
-                поднимая его на ваш этаж!</p>
+                поднимая его на ваш этаж!
+              </p>
             </li>
-            <!-- <li></li>
-            <li></li> -->
+            <li class="visually-hidden services-description services-description2">
+              <h3>Гарантия</h3>
+              <p>Если купленный у нас товар поломается или заискрит,<br>
+                а также в случае пожара, спровоцированного его возгаранием,<br>
+                вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>
+                сгоревший товар на новый.<br>
+                Дом уж восстановите как-нибудь сами.</p>
+            </li>
+            <li class="visually-hidden services-description services-description3">
+              <h3>Кредит</h3>
+              <p>Залезть в долговую яму стало проще!<br>
+                Кредитные консультанты придут вам на помощь.<br>
+                <a class="button button-credit" href="#">Отправить заявку</a>
+              </p>
+
+            </li>
           </ul>
         </div>
         </div>
@@ -272,7 +289,7 @@
       <div class="about-contacts">
         <h3>Контакты</h3>
         <p>Вы можете забрать товар сами,<br>заехав в наш офис</p>
-        <img src="img/map-small.png" alt="Схема проезда">
+        <img class="map-small" src="img/map-small.png" alt="Схема проезда">
       </div>
 
       <div class="button-container">
@@ -384,7 +401,8 @@
     <img src="img/map-large.png" width="940" height="446" alt="Схема проезда">
     <button class="modal-form-close"><span class="visually-hidden">Закрыть окно</span></button>
   </section>
-  <div class="visually-hidden modal-overlay">
+
+  <div class="modal-overlay modal-overlay-hidden">
   </div>
 
 <script src="js/script.js">
