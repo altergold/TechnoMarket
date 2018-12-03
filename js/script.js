@@ -176,11 +176,63 @@ if (sliderPrice) {
 
   sliderPriceFrom.onmousedown = sliderFromMouseDown;
   sliderPriceTo.onmousedown = sliderToMouseDown;
+  inputPriceFrom.onblur = inputPriceFromBlur;
+  inputPriceTo.onblur = inputPriceToBlur;
+
+  function updateSlider() {
+    sliderPriceFrom.style.left = currentOffsetLeftPriceFrom + 'px';
+    sliderPriceTo.style.left = currentOffsetLeftPriceTo + 'px';
+
+    inputPriceFrom.value = Math.round(minPrice + rulerStep * (currentOffsetLeftPriceFrom - initialOffsetLeftPriceFrom ));
+    inputPriceTo.value = Math.round(maxPrice - rulerStep * (initialOffsetLeftPriceTo - currentOffsetLeftPriceTo));
+
+    sliderLineActive.style.left = currentOffsetLeftPriceFrom + 20 + 'px';
+    sliderLineActive.style.width = currentOffsetLeftPriceTo - currentOffsetLeftPriceFrom + 'px';
+  }
+
+  function inputPriceFromBlur(evt) {
+    evt.preventDefault();
+    if (isNaN(this.value)) {
+      this.value = minPrice;
+    }
+    else {
+      this.value = Math.round(this.value);
+
+      if (this.value < minPrice) {
+        this.value = minPrice;
+      }
+      else if (this.value > inputPriceTo.value) {
+        this.value = inputPriceTo.value;
+      }
+
+      currentOffsetLeftPriceFrom = initialOffsetLeftPriceFrom + Math.round(this.value - minPrice) / rulerStep;
+      updateSlider();
+    }
+  }
+
+  function inputPriceToBlur(evt) {
+    evt.preventDefault();
+    if (isNaN(this.value)) {
+      this.value = maxPrice;
+    }
+    else {
+      this.value = Math.round(this.value);
+
+      if (this.value > maxPrice) {
+        this.value = maxPrice;
+      }
+      else if (this.value < inputPriceFrom.value) {
+        this.value = inputPriceFrom.value;
+      }
+
+      currentOffsetLeftPriceTo = initialOffsetLeftPriceTo - Math.round(maxPrice - this.value) / rulerStep;
+      updateSlider();
+    }
+  }
 
   function sliderFromMouseDown(evt) {
     evt.preventDefault();
     posFromStart = evt.clientX;
-    console.log('currentOffsetLeftPriceTo: ' + currentOffsetLeftPriceTo);
     document.onmousemove = sliderFromMouseMove;
     document.onmouseup = sliderMouseUp;
   }
@@ -199,27 +251,17 @@ if (sliderPrice) {
     posFromStart = posNew;
 
     if(newOffset < initialOffsetLeftPriceFrom) {
-      sliderPriceFrom.style.left = initialOffsetLeftPriceFrom + 'px';
       currentOffsetLeftPriceFrom = initialOffsetLeftPriceFrom;
-
-      sliderLineActive.style.left = initialOffsetLeftPriceFrom + 20 + 'px';
+      updateSlider();
     }
     else if (newOffset > currentOffsetLeftPriceTo - 20) {
-      sliderPriceFrom.style.left = currentOffsetLeftPriceTo - 20 + 'px';
       currentOffsetLeftPriceFrom = currentOffsetLeftPriceTo - 20;
-
-      sliderLineActive.style.left = currentOffsetLeftPriceTo + 'px';
+      updateSlider();
     }
     else {
-      sliderPriceFrom.style.left = newOffset + 'px';
       currentOffsetLeftPriceFrom = newOffset;
-
-      sliderLineActive.style.left = newOffset + 'px';
+      updateSlider();
     }
-
-    inputPriceFrom.value = Math.round(minPrice + rulerStep * (currentOffsetLeftPriceFrom - initialOffsetLeftPriceFrom ));
-    sliderLineActive.style.width = currentOffsetLeftPriceTo - currentOffsetLeftPriceFrom + 'px';
-
   }
 
   function sliderToMouseMove(evt) {
@@ -229,20 +271,17 @@ if (sliderPrice) {
     posToStart = posNew;
 
     if(newOffset > initialOffsetLeftPriceTo) {
-      sliderPriceTo.style.left = initialOffsetLeftPriceTo + 'px';
       currentOffsetLeftPriceTo = initialOffsetLeftPriceTo;
+      updateSlider();
     }
     else if (newOffset < currentOffsetLeftPriceFrom + 20) {
-      sliderPriceTo.style.left = currentOffsetLeftPriceFrom + 20 + 'px';
       currentOffsetLeftPriceTo = currentOffsetLeftPriceFrom + 20;
+      updateSlider();
     }
     else {
-      sliderPriceTo.style.left = newOffset + 'px';
       currentOffsetLeftPriceTo = newOffset;
+      updateSlider();
     }
-
-    inputPriceTo.value = Math.round(maxPrice - rulerStep * (initialOffsetLeftPriceTo - currentOffsetLeftPriceTo));
-    sliderLineActive.style.width = currentOffsetLeftPriceTo - currentOffsetLeftPriceFrom + 'px';
   }
 
   function sliderMouseUp(evt) {
