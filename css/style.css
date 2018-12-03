@@ -145,6 +145,7 @@ ul {
   height: 42px;
   line-height: 42px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -356,7 +357,7 @@ ul {
 }
 
 .user-nav .user-nav-profile:active::before  {
-  transform: grayscale(100%);
+  filter: grayscale(100%);
   opacity: 0.3;
 }
 
@@ -641,11 +642,50 @@ padding: 33px 0;
 
 
 .filter .price-container .price-slider {
+  position: relative;
   background-color: #f7f3ec;
   height: 80px;
   border-radius: 0 0 4px 4px;
   width: 100%;
   margin-bottom: 9px;
+}
+
+.price-slider .slider-line{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 180px;
+  background-color: #d9dddf;
+}
+
+.price-slider .slider-line-active{
+  position: absolute;
+  top:50%;
+  left: 20px;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 180px;
+  background-color: #00ca74;
+}
+.price-slider .slider-from,
+.price-slider .slider-to {
+  position: absolute;
+  top: 30px;
+  width: 20px;
+  height: 23px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/filter-button.svg");
+  cursor: pointer;
+}
+
+.price-slider .slider-from {
+  left: 10px;
+}
+.price-slider .slider-to {
+  left: 190px;
 }
 
 .filter .price-container .price-from,
@@ -1286,6 +1326,7 @@ padding: 33px 0;
   text-align: left;
   border: none;
   border-bottom: 1px solid #4e637c;
+  cursor: pointer;
 }
 
 .services-button:not(.services-button-active):hover,
